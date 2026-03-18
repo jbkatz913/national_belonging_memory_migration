@@ -64,7 +64,7 @@ dtable i.dv_cat dv belong_avg gen12 ever_muslim male citizen rlgsty g1_1 g1_5 g1
 generate category = .
 replace category = 1 if gen12 == 0
 replace category = 2 if gen12 == 1 & ever_muslim == 0
-replace category = 3 if ever_muslim == 1
+replace category = 3 if gen12 == 1 & ever_muslim == 1
 
 label define lab_category 1 "Ethnic Majority" 2 "non-Muslim Minority" 3 "Muslim"
 label values category lab_category
