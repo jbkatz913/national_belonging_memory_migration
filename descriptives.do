@@ -66,7 +66,7 @@ replace category = 1 if gen12 == 0
 replace category = 2 if gen12 == 1 & ever_muslim == 0
 replace category = 3 if gen12 == 1 & ever_muslim == 1
 
-label define lab_category 1 "Ethnic Majority" 2 "non-Muslim Minority" 3 "Muslim"
+label define lab_category 1 "Ethnic Majority" 2 "non-Muslim Migration Background" 3 "Muslim Migration Background"
 label values category lab_category
 
 label variable category ""
