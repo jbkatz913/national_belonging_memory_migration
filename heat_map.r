@@ -42,9 +42,9 @@ d_heat <- d |>
     grade = factor(grade,
                    levels = c("G5", "G6", "G7", "G8", "G9", "G10")),
     cat3 = case_when(
-      ever_muslim == 1 ~ "Muslim",
+      gen12 == 1 & ever_muslim == 1 ~ "Muslim",
       gen12 == 1 & ever_muslim == 0 ~ "non-Muslim",
-      gen12 == 0 & ever_muslim == 0 ~ "Majority"),
+      gen12 == 0 ~ "Majority"),
     cat3 = factor(cat3, 
                   levels = c("Majority", "non-Muslim", "Muslim"))
     ) |>
