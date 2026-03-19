@@ -1,8 +1,8 @@
 # national_belonging_memory_migration
-Replication package for the paper titled "National Belonging, 'Official' Memory Culture, and the Moderating Role of Ethnic Background in Germany
-Author: Jordan Katz
 
-Title: National Belonging, “Official” Memory Culture, and the Moderating Role of Ethnic Background in Germany
+Replication package for the paper titled "National Belonging, 'Official' Memory Culture, and the Moderating Role of Ethnic Background in Germany
+
+Author: Jordan Katz
 
 Abstract: Whereas Jews were previously the target of state persecution, official German remembrance has recast the once “negative” other as a “positive” other—a process through which national belonging is made conditional on holding a favorable orientation to them. Moreover, the notion of Jews as a memory-mediated other features prominently in immigrant integration discussions, especially regarding Muslims. Accordingly, this paper examines the relationship between German national belonging and individual sentiment towards Jews, moderated by migration and religious background. Using a panel survey of students, analyses indicate that, among migrant background respondents, national belonging is positively associated with pro-Jewish sentiment; the effect being uniquely pronounced for Muslims. However, among the ethnic majority, the relationship is null, despite their higher overall levels of belonging and pro-Jewish sentiment. Results underscore the relationship between immigrant conceptualizations of national belonging and state-endorsed memory culture. Further, the intensity of this association systematically varies according to social location vis-à-vis the nation: the ethnic majority situated closest to the “core,” followed by non-Muslim minorities, and then Muslims. The paper theorizes how the precarity of one’s national membership informs how individuals cultivate a sense of national belonging in relation to memory-mediated others specifically, and perhaps state-endorsed cultural contents more broadly.
 
