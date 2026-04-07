@@ -18,9 +18,9 @@
 
 # load packages -----------------------------------------------------------
 
-# install.packages(c("tidyverse", "ggeffects", "ggthemes", "readxl"))
+# install.packages(c("tidyverse", "readxl"))
 
-pacman::p_load(tidyverse, ggeffects, ggthemes, readxl)
+pacman::p_load(tidyverse, readxl)
 
 
 
