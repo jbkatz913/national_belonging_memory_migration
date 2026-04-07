@@ -17,9 +17,9 @@
 
 # load packages -----------------------------------------------------------
 
-# install.packages(c("haven", "tidyverse", "ggthemes"))
+# install.packages(c("haven", "tidyverse"))
 
-pacman::p_load(haven, tidyverse, ggthemes)
+pacman::p_load(haven, tidyverse)
 
 
 
