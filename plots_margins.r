@@ -109,7 +109,8 @@ fig_3 <- ame_o |>
   scale_x_continuous(
     breaks = c(-0.05, -0.025, 0, 0.025, 0.05),
     labels = function(x) round(x, 3),
-    limits = c(-0.05, 0.05)) +
+    limits = c(-0.05, 0.05)
+  ) +
   theme_classic() +
   labs(x = "National Belonging (AME)", y = "", color = "") +
   theme(
@@ -193,6 +194,11 @@ fig_5 <- ame_o_s |>
   geom_point(position = pd) +
   geom_errorbarh(aes(xmin = ll, xmax = ul), height = 0.2, position = pd) +
   geom_vline(xintercept = 0, linetype = "dashed", color = "black", alpha = 0.5) +
+  scale_x_continuous(
+    breaks = c(-0.075, -0.05, -0.025, 0, 0.025, 0.05),
+    labels = function(x) round(x, 3),
+    limits = c(-0.075, 0.05)
+  ) +
   theme_classic() +
   labs(x = "National Belonging (AME)", y = "", color = "") +
   theme(
